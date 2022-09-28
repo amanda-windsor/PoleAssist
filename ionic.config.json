@@ -1,0 +1,7 @@
+{
+  "name": "pole-assist-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

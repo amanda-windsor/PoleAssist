@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223" height="223" viewBox="0 0 223 223">
+  <defs>
+    <filter id="Rectangle_1719" x="0" y="0" width="223" height="223" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_11_4" data-name="Component 11 – 4" transform="translate(9 6)">
+    <g id="Component_125_3" data-name="Component 125 – 3">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_1719)">
+        <rect id="Rectangle_1719-2" data-name="Rectangle 1719" width="205" height="205" rx="102.5" transform="translate(9 6)" fill="#3edad1"/>
+      </g>
+    </g>
+    <text id="Pole_Assist" data-name="Pole 
+Assist" transform="translate(92 85)" fill="#fff" font-size="80" font-family="High Spirited" letter-spacing="0.02em"><tspan x="-75.573" y="0">Pole </tspan><tspan x="-76.587" y="57">Assist</tspan></text>
+  </g>
+</svg>

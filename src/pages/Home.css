@@ -1,0 +1,118 @@
+@import url('http://fonts.cdnfonts.com/css/high-spirited');
+
+.body {
+    background-color: #3EDAD1;
+}
+
+.pageTitle {
+    text-align: center;
+}
+
+.icon {
+    color: #3EDAD1;
+}
+
+.trickLabel {
+    color: #3EDAD1;
+    position: relative;
+}
+
+
+.IonIcon.icon {
+    color: #3EDAD1;
+}
+
+
+.homeTopBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+
+.logo {
+    position: relative;
+    padding: 1rem;
+    max-width: 100%;
+    top: 0px;
+    align-self: center;
+}
+
+/* HOME PAGE - DASHBOARD LAYOUT AND BUTTONS */
+
+.dashboard {
+    position: center;
+    margin-top: 20em;
+    padding: 0.5em;
+}
+
+.dashboardButton {
+    position: relative;
+    size: fixed;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.homePage {
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'High Spirited';
+    position: center;
+}
+
+.dashboardButton.IonIcon.icon {
+    align-self: center;
+}
+
+h3 {
+    position: absolute;
+    padding-top: 0;
+    padding-left:30%;
+    top: 0;
+}
+/*DASHBOARD BUTTON LABELS*/
+h4 {
+    text-align: center;
+    font-family: Roboto;
+    text-transform: uppercase;
+    position: relative;
+}
+
+ .dashboardProgressBar {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    bottom: 40%;
+ }
+
+ .grid.container {
+    display: grid;
+ }
+
+ #dashboardIcon {
+    height: 2em;
+    width: 2em;
+ }
+
+ .dashboardHeading {
+    text-align: center;
+ }
+
+ #currentLevel {
+    position: absolute;
+    left: 0;
+    float: center;
+ }
+
+ #nextLevel {
+    position: absolute;
+    right: 0;
+    float: center;
+ }

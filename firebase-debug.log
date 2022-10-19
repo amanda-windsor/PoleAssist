@@ -1,0 +1,41 @@
+[debug] [2022-10-12T02:54:00.050Z] ----------------------------------------------------------------------
+[debug] [2022-10-12T02:54:00.053Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\amwin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-12T02:54:00.053Z] CLI Version:   11.14.2
+[debug] [2022-10-12T02:54:00.054Z] Platform:      win32
+[debug] [2022-10-12T02:54:00.054Z] Node Version:  v18.9.1
+[debug] [2022-10-12T02:54:00.055Z] Time:          Wed Oct 12 2022 12:54:00 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2022-10-12T02:54:00.055Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-12T02:54:00.067Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-12T02:54:00.068Z] > authorizing via signed-in user (am.windsor@hotmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\amwin\OneDrive\Desktop\poleAssist
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-12T02:54:51.062Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2022-10-12T02:54:52.419Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2022-10-12T02:54:52.419Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2022-10-12T02:55:27.480Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/pole-assist:addFirebase [none]
+[debug] [2022-10-12T02:55:28.231Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/pole-assist:addFirebase 403
+[debug] [2022-10-12T02:55:28.231Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/pole-assist:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-10-12T02:55:28.232Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-10-12T02:55:28.530Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\amwin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\amwin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

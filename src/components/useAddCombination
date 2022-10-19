@@ -1,0 +1,21 @@
+import { useState, useEffect } from 'react';
+import { isPlatform } from '@ionic/react';
+import { Capacitor } from '@capacitor/core';
+
+export function makeCombination( trick1:string, trick2:string, trick3:string ) {
+    
+      var trick1:string;
+      var trick2:string;
+      var trick3:string;
+      var newCombination:Object
+
+      trick1=document.getElementById("Trick 1")
+      trick2=document.getElementById("Trick 2")
+      trick3=document.getElementById("Trick 3")
+
+      newCombination = ( trick1:string, trick2:string, trick3:string )
+
+return {
+    makeCombination,
+    };
+}

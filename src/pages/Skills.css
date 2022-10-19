@@ -1,0 +1,48 @@
+
+.checkboxLabels {
+    font-weight: 600;
+    float: right;
+    position: sticky;
+    right: 0.7rem;
+    letter-spacing: 1rem;
+}
+
+
+
+#checkboxLeft {
+    position: sticky;
+    margin-right: 1em;
+    width: 30px;
+    height: 30px;
+    float: right;
+    right: 0;
+}
+
+#checkboxRight {
+    position: sticky;
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
+    float: right;
+    right: 0;
+}
+
+.trickLabel {
+    color: #3EDAD1;
+    position: sticky;
+    font-weight: 500;
+}
+
+.levelLabel {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+  
+  
+  
+  p.trickLabel {
+    color: #3EDAD1;
+    font-size: 95%;
+  }

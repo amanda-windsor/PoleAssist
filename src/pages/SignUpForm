@@ -1,0 +1,21 @@
+import { IonInput, IonItem } from '@ionic/react';
+import React from 'react';
+
+
+const SignUpForm: React.FC = () => {
+    return (
+<form>
+<IonItem>
+    <IonInput type="text" placeholder="First Name"></IonInput>
+</IonItem>
+<IonItem>
+    <IonInput type="text" placeholder="Last Name"></IonInput>
+</IonItem>
+<IonItem>
+    <IonInput type="text" placeholder="Email Address"></IonInput>
+</IonItem>
+</form>
+    );
+};
+
+export default SignUpForm;

@@ -1,15 +1,15 @@
-.container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.IonContent.container {
+  color: transparent;
 }
 
-.container strong {
-  font-size: 20px;
-  line-height: 26px;
+.container {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 10rem;
+  transform: translateY(-50%);
+  background-color: transparent;
 }
 
 .container p {
@@ -22,3 +22,4 @@
 .container a {
   text-decoration: none;
 }
+
